@@ -1,0 +1,313 @@
+baseURL: "https://shahzaibakhtar.com/"
+languageCode: "en-us"
+title: "Shahzaib Akhtar"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+enableRobotsTXT: true
+enableEmoji: true
+
+params:
+  title: "Shahzaib Akhtar"
+  description: "Network Security Engineer specializing in L2/L3 network infrastructure, security hardening, and automation"
+#  favicon: "/fav.png"
+  
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+  
+  theme:
+    defaultTheme: "auto"  # auto, light, dark
+  
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+  
+  # Colors (Network Security Professional Theme)
+  color:
+    textColor: "#1e293b"
+    secondaryTextColor: "#475569"
+    textLinkColor: "#2563eb"
+    backgroundColor: "#f8fafc"
+    secondaryBackgroundColor: "#e2e8f0"
+    primaryColor: "#2563eb"
+    secondaryColor: "#1e40af"
+    
+    darkmode:
+      textColor: "#e2e8f0"
+      secondaryTextColor: "#94a3b8"
+      textLinkColor: "#60a5fa"
+      backgroundColor: "#0f172a"
+      secondaryBackgroundColor: "#1e293b"
+      primaryColor: "#3b82f6"
+      secondaryColor: "#1e40af"
+  
+  navbar:
+    align: ms-auto
+    brandName: "Shahzaib Akhtar"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+  
+  # Hero Section - Maximum Impact
+  hero:
+    enable: true
+    intro: ""
+    title: "Shahzaib Akhtar"
+    subtitle: "L2/L3 Network Security Engineer"
+    content: |
+      🔐 **Securing Enterprise Networks** | ⚡ **Automating Network Operations**  
+      
+      I architect and implement secure network infrastructures with expertise in:
+      - **Firewall Configuration** (Cisco ASA, Juniper, Huweai, OpenSource )
+      - **NAC/802.1X Implementation** (Cisco ISE, OpenSource, policy enforcement)
+      - **L2/L3 Switching & Routing** (TCP/IP, VLANs, BGP/OSPF, multi-vendor)
+      - **Network Monitoring Systems** (SNMP, SIEM, NMS)
+      - **Virtual Network Labs** (Docker containers, GNS3 simulations)
+      - **Automation Scripting** (Python, Perl, C++)
+      
+      Building zero-trust networks that scale securely.
+    image: /images/me.png
+    bottomImage:
+      enable: true
+    roundImage: true
+    button:
+      enable: true
+      name: "Explore Network Solutions"
+      url: "#projects"
+      download: false
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fas fa-network-wired
+          url: "#experience"
+          tooltip: "Network Engineering"
+        - icon: fas fa-shield-alt
+          url: "#skills"
+          tooltip: "Security Expertise"
+        - icon: fab fa-python
+          url: "#projects"
+          tooltip: "Automation Projects"
+        - icon: fab fa-github
+          url: https://github.com/ShahzaibAkhtar123
+          tooltip: "Network Tools"
+        - icon: fas fa-envelope
+          url: mailto:shahzaib.security@example.com
+          tooltip: "Contact for Consultation"
+  
+
+  # About Section
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |
+      I am a Network Security Engineer with **2+ years** of specialized experience in **Layer 2/3 network engineering**. I design, implement, and secure enterprise-grade network infrastructures with a focus on **zero-trust architecture**, **cloud-native security**, and **automated threat mitigation**.
+      
+      My expertise spans from **custom TCP/IP stack development** to **enterprise security operations**, ensuring every layer from L2 to L3 is both performant and protected. I work with **Cisco, Juniper, and Huawei** equipment, implementing **NAC solutions**, **firewall policies**, and **security automation**.
+      
+      **Philosophy**: "Security isn't a feature—it's the foundation."
+    skills:
+      enable: true
+      title: "Core Technologies & Expertise:"
+      items:
+        - "Cisco IOS/NX-OS/IOS-XE"
+        - "Open Source NAC Solutions"
+        - "Custom TCP/IP Stack Development"
+        - "Network Automation (Python/Perl)"
+        - "Core Network Infrastructure"
+        - "Firewall Configuration (OpenSource)"
+        - "BGP/OSPF/EIGRP Routing"
+        - "VLAN/STP Switching Architecture"
+        - "Network Monitoring & SIEM"
+        - "Docker Virtual Network Labs"
+        - "VPN Implementation (IPsec/SSL)"
+        - "Network Security Hardening"
+  
+  # Experience Section
+  experience:
+    enable: true
+    title: "Professional Experience"
+    items:
+      - company: "Network Security Engineering"
+        companyUrl: "#"
+        jobs:
+          - name: "Network Security Engineer"
+            date: "2023 - Present"
+            content: |
+              Designing and implementing secure network architectures for enterprise environments. Specializing in L2/L3 technologies, NAC deployment, and security automation.
+              
+              **Key Responsibilities:**
+              - Design and implement campus networks with 200+ switches
+              - Deploy and configure Cisco ISE for NAC solutions
+              - Implement firewall policies and security hardening
+              - Automate network operations using Python/Perl scripts
+              - Perform security assessments and compliance checks
+            info:
+              content: "Focus on enterprise network security and automation"
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fab fa-python
+                  url: "#"
+                  tooltip: "Python Automation"
+                - icon: fas fa-shield-alt
+                  url: "#"
+                  tooltip: "Network Security"
+                - icon: fas fa-network-wired
+                  url: "#"
+                  tooltip: "L2/L3 Networking"
+  
+      - company: "Network Development"
+        companyUrl: "#"
+        jobs:
+          - name: "Network Developer"
+            date: "2023 - Present"
+            content: |
+              Developing custom network solutions and protocol implementations. Focus on low-level network programming and performance optimization.
+              
+              **Key Achievements:**
+              - Developed custom TCP/IP stack.
+              - Created network Monitoring tools.
+              - Implemented containerized network labs using Docker
+              - Built monitoring and management tools using Python and perl.
+            info:
+              content: "Custom network development and automation"
+  
+  # Education Section
+  education:
+    enable: true
+    title: "Education & Certifications"
+    index: false
+    items:
+      - title: "Computer Science / Network Engineering"
+        school:
+          name: "University Degree"
+          url: "#"
+        date: "Graduated"
+        GPA: ""
+        content: |
+          Specialized coursework in:
+          - Network Security and Protocol Analysis
+          - System Administration and Hardening
+          - Software Development and Automation
+          - Cloud and Container Technologies
+      
+      - title: "Professional Certifications"
+        school:
+          name: "Industry Certifications"
+          url: "#"
+        date: "In Progress / Targeted"
+        GPA: ""
+        content: |
+          **Currently Pursuing:**
+          - Cisco CCNA/CCNP Security
+          - CompTIA Security+
+          - Certified Kubernetes Security Specialist (CKS)
+          - Python for Network Engineers
+          
+          **Continuous Learning:**
+          - Advanced BGP/OSPF techniques
+          - Zero Trust Architecture implementation
+          - Network automation best practices
+  
+  # Projects Section
+  projects:
+    enable: true
+    title: "Network Security Projects"
+    items:
+      - title: "Enterprise Campus Network Design"
+        content: "Complete redesign of campus network serving 2,000+ users across 5 buildings. Implemented hierarchical design with proper segmentation and NAC enforcement."
+        image: /images/projects/profile.png
+        featured:
+          name: "Case Study"
+          link: "#"
+        badges:
+          - "Cisco"
+          - "VLANs"
+          - "OSPF"
+          - "NAC"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Code"
+      
+      - title: "Network Automation Framework"
+        content: "Python-based automation framework for managing multi-vendor network devices. Includes configuration backup, compliance checking, and automated remediation."
+        image: /images/projects/converter.jpg
+        featured:
+          name: "Demo"
+          link: "#"
+        badges:
+          - "Python"
+          - "Ansible"
+          - "Git"
+          - "CI/CD"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Code"
+      
+      - title: "Security Hardening Assessment"
+        content: "Comprehensive security assessment and hardening of enterprise firewall infrastructure. Aligned configurations with industry best practices and compliance requirements."
+        image: /images/projects/profile2.jpg
+        featured:
+          name: "Report"
+          link: "#"
+        badges:
+          - "Security"
+          - "Compliance"
+          - "Firewall"
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: "#"
+            tooltip: "View Tools"
+  
+  # Contact Section
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: "I'm available for network security consulting, project work, and full-time opportunities. Whether you need help with network design, security hardening, or automation solutions—let's discuss how I can help secure your infrastructure."
+    btnName: "Email Me"
+    btnLink: "mailto:shahzaib.security@example.com"
+    formspree:
+      enable: false
+  
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Recent Articles"
+      enable: false
+    socialNetworks:
+      github: https://github.com/ShahzaibAkhtar123
+      linkedin: "#"
+      twitter: "#"
+  
+  terms:
+    read: "min read"
+    toc: "Table Of Contents"
+    copyright: "© 2024 Shahzaib Akhtar. All rights reserved."
+    pageNotFound: "Page not found"
+    emailText: "Check out my portfolio"
+  
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"

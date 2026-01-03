@@ -1,0 +1,32 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner text-center">
+          {{ partial "footer/copyright.html" . }}
+          
+          <!-- Simple social links -->
+          <div class="footer-social mt-3">
+            {{ with .Site.Params.footer.socialNetworks }}
+              {{ if .linkedin }}
+              <a href="{{ .linkedin }}" target="_blank" rel="noopener noreferrer" class="mx-2" aria-label="LinkedIn">
+                <i class="fab fa-linkedin fa-lg"></i>
+              </a>
+              {{ end }}
+              
+              {{ if .github }}
+              <a href="{{ .github }}" target="_blank" rel="noopener noreferrer" class="mx-2" aria-label="GitHub">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              {{ end }}
+              
+              <a href="mailto:123khansshahzaib@gmail.com" class="mx-2" aria-label="Email">
+                <i class="fas fa-envelope fa-lg"></i>
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
